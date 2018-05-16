@@ -1,0 +1,79 @@
+ /* 
+  * File: tictactoe_styles.css
+  * Module: COMP519
+  * Author: Richard Kneale
+  * Student ID: 200790336
+  * Date created: 18th November 2016
+  * Description: Contains the styles for the tic-tac-toe website
+  */
+  
+ /* STANDARD STYLES */
+  body {background-color:AntiqueWhite}
+  table {margin:auto;width:auto;border:0}
+  h1 {font-size:20px;font-weight:bold;font-variant:small-caps}
+  
+ /* HEADER & FOOTER */
+  .headerFooter {position:fixed;left:0px;right:0px}
+  #header {top:0px;height:100px;box-shadow:0px 10px 5px #888888;background-color:black}
+  #footer {bottom:0px;height:40px;box-shadow:0px -10px 5px #888888;background-color:#333333}
+  
+     /* TITLE & NAME */
+      .titleName {color:white}
+      #title {text-align:center;margin:auto;margin-top:20px;width:auto;font-size:50px;font-variant:small-caps;font-weight:bold}
+      #name {width:200px;margin-left:100px;margin-top:10px}
+ 
+ /* COMMON STYLES */
+  #mainSpace {margin:auto;margin-top:150px;height:auto;width:auto;text-align:center}
+  #buttonTable {width:175px}
+  .buttonTable2 {width:225px}
+  .buttonTable3 {width:300px}
+  
+  .textLeft {text-align:left}
+  .textRight {text-align:right}
+  .textCenter {text-align:center}
+  .boldText {font-weight:bold}
+  .largeText {font-size:20px}
+  
+     /* FORM ELEMENTS */
+     #formSpace {margin:auto;margin-top:20px;height:auto;width:600px;text-align:center;
+              background-color:white;box-shadow:10px 10px 5px #888888;border-radius:25px}     
+     .ticTacToeInput {background-color:yellow;text-align:right}
+	 #errorMessage {text-align:center;width:auto;margin:auto;color:red}
+    
+ /* WELCOME STYLES */
+  #loginTable {width:375px}
+  #playButton {margin-top:20px;box-shadow:5px 5px 5px #888888}
+  #registrationLink {text-align:right;width:400px;margin:auto}
+  
+  /* MENU STYLES */
+  #menuTable {width:200px}
+ 
+ /* TIC TAC TOE STYLES */
+  #ticTacToeSpace {margin:auto;margin-top:130px;height:auto;width:auto;text-align:center}
+  #gameResults {width:auto;text-align:center}
+  .invisibleInput {background-color:transparent;border:0;text-align:left}
+  .inlineElement {display:inline}
+  
+  #tictactoe_background {margin:auto;margin-top:20px;width:500px;height:500px;
+                         border-radius:25px;-moz-border-radius:25px;
+                         box-shadow: 10px 10px 5px #888888;background-color:#333333}
+  #tictactoe_board {margin-left:25px;margin-top:25px;position:absolute;width:450px; height:450px;background-color:black;line-height:.8em}
+  
+  #controlsSpace {width:auto;margin:auto;margin-top:20px}
+  #gameControls {width:450px}
+  .resetButton {box-shadow:5px 5px 5px #888888;text-align:center}
+  
+  #spacer {height:75px}
+  
+ /* RESULTS STYLES */
+  #resultsSpace {width:500px;margin:auto;margin-top:130px}
+  #resultsTable {width:250px}
+  #resultsControls {margin-top:20px;width:250px}
+  #resultsErrorMessage {width:200px;margin:auto;margin-top:150px;color:red;text-align:center}
+  #beginGameSpace {width:200px;margin:auto;margin-top:20px;text-align:center}
+  #hallOfFameButtons {width:300px}
+  #hallOfFameButtons2 {width:350px}
+  
+  /* HALL OF FAME STYLES */
+  #hallOfFameTitle {width:auto;margin:auto}
+  #hallOfFameTable {width:100px}
